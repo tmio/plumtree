@@ -1,4 +1,11 @@
-# State implementation for TypeScript
+# Plumtree - Push-Lazy-pUsh Multicast TREE, an implementation of Epidemic Broadcast Tree, in Typescript
+
+
+# API
+
+```typescript
+TODO
+```
 
 # License
 
