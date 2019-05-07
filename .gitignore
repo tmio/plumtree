@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+*.swp
+coverage/**
+lib
+node_modules/
+.nyc_output
+yarn-error.log
