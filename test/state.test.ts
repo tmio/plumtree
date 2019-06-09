@@ -261,8 +261,8 @@ describe('State tests', () => {
     let attributes = "{\"message_type\": \"BLOCK\"}";
     state.receiveGossipMessage(peer, attributes, message);
     state.receiveGossipMessage(secondPeer, attributes, message);
-    assert.equal(1, repo.eagerPushPeers().length);
-    assert.equal(1, repo.lazyPushPeers().length);
+    assert.equal(2, repo.eagerPushPeers().length);
+    assert.equal(0, repo.lazyPushPeers().length);
     assert.isNull(messageSender.payload);
     assert.equal(secondPeer, messageSender.peer);
     assert.equal(Verb.PRUNE, messageSender.verb);

@@ -216,7 +216,6 @@ class MessageHandler {
         } else {
             if (sender != null) {
                 this.messageSender.sendMessage(Verb.PRUNE, null, sender, this.hash, null);
-                this.peerRepository.moveToLazy(sender);
             }
         }
     }
