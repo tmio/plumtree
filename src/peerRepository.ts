@@ -1,7 +1,7 @@
 import {Peer} from "./peer";
 
 /**
- * Repository of active peers associating with a gossip tree.
+ * Repository of active peers associated with a gossip tree.
  */
 export interface PeerRepository {
 
